@@ -21,6 +21,7 @@ HBuildX2.6.5版本下，button组件如果要自定义不可点击时的背景�
 plus.navigator.setStatusBarStyle('dark'); // dark/light
 进行灵活修改，需要注意的是这个函数在HbuildX2.6.5里
 需要放在onShow生命周期，并放在setTimeout里延时设置，且该方法开发模式运行到手机无效，必须云打包或者离线打包才能看到效果
+
 示例：
 // #ifdef APP-PLUS
 // 修改导航栏颜色主题无法兼容低版本的android机。且测试环境无法验证，必须打包。
